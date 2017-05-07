@@ -7,6 +7,14 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+.h60{
+  height: 60px;
+}
+
+.w60{
+  width: 60px; 
+}
   
 .stickyfooter{
   position: absolute;
