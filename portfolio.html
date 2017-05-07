@@ -1,49 +1,96 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title>Samuel R. Mendez - About</title>
-	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">	
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-</head>
+  <head>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Supplementary CSS -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">Samuel R. Mendez</a>
+        </div>
 
-<body>
-	<header>
-		<div class="headercontainer">
-			<div class="headermain">Samuel R. Mendez
-			</div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./index.html">About</a></li>
+            <li class="active"><a href="./portfolio.html">Portfolio  <span class="sr-only">(current)</span></a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    
+    <!-- Main body -->
+    <div class="container">
 
-			<div class="headerside">
-				<div class="headeraboutbox"><a href="./index.html">About</a></div><div class="headerportfoliobox"><a href="./portfolio.html">Portfolio</a></div><div class="headercontactbox"><a href="./contact.html">Contact</a></div>
-			</div>
-		</div>
-	</header>
-	
-	<main class="main">
-		
-		<section class ="leftcontainer">
-			<div class="leftcontainerheading">Portfolio</div>
-			<div class="leftcontainerbody">
-				<div class="portfoliothumbnailboxleft"><img src=""><img src="http://lorempixel.com/275/200" alt="placeholder thumbnail"><div class="portfoliothumbnaillabel">Hangman</div></div>
-				<div class="portfoliothumbnailboxright"><img src="http://lorempixel.com/275/200" alt="placeholder thumbnail"><div class="portfoliothumbnaillabel">RPG Game</div></div>
-				<div class="portfoliothumbnailboxleft"><img src="http://lorempixel.com/275/200" alt="placeholder thumbnail"><div class="portfoliothumbnaillabel">Trivia Game</div></div>
-				<div class="portfoliothumbnailboxright"><img src="http://lorempixel.com/275/200" alt="placeholder thumbnail"><div class="portfoliothumbnaillabel">Rutgers Info Widget</div></div>
-				<div class="portfoliothumbnailboxleft"><img src="http://lorempixel.com/275/200" alt="placeholder thumbnail"><div class="portfoliothumbnaillabel">Rock Paper Scissors</div></div>
-			</div>
-		</section>
-	
-	<aside class="rightcontainer">
-		<div class="rightcontainerheading">Connect with Me</div>
+      <!-- Lefthand column (About) -->
+      <div class="col-xs-12 col-sm-12 col-m-8 col-lg-8">
+        <div class="row">
+          <div class="col-lg-12" style="border-bottom: thin solid #dddddd"><h1>Portfolio</h1></div>
+        </div>
+        <div clas="container" style="padding: 20px">
+          <div class="row">
+            <div class="col-lg-12">
+              <img src="./assets/images/SRM photo.jpg" class="pull-left" alt="Samuel R. Mendez profile picture" width="150" height="150">Pokem ipsum dolor sit amet Tangrowth Zapdos Cleffa Eelektrik The Power Of One Storm Badge. Sonic Boom Breloom Celebi Red grumpy old man who needs coffee Crobat Larvesta. Ut enim ad minim veniam Cleffa Junichi Masuda Carracosta Poliwrath Terrakion Jigglypuff. The Power Of One The Power Of One Excadrill Deino Rock Cresselia Shroomish. Lorem ipsum dolor sit amet Lickilicky Sawk Lanturn Milotic Tornadus Rotom.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Righthand column () -->
+      <div class="col-xs-12 col-sm-12 col-m-4 col-lg-4 padleft40">
+          <div class="row brdr-thinsolid-ddd">
+            <div class="col-xs-12 col-s-12 col-m-12 col-lg-12 text-center pad10"><h2>Contact</h2></div>
+          </div>
+          <div class="row pad20 brdr-thinsolid-ddd">
+              <div class="col-xs-3 col-s-3 col-m-3 col-lg-3 pad10"><a href="https://www.github.com/smendez92"><img class="w60 h60 pull-left" src="./assets/images/GH.png"></a></div>
+              <div class="col-xs-3 col-s-3 col-m-4col-lg-3 pad10"><a href="https://www.instagram.com/samuelanimates/"><img class="w60 h60 pull-left" src="./assets/images/IG.png"></a></div>
+              <div class="col-xs-3 col-s-3 col-m-3col-lg-3 pad10"><a href="www.linkedin.com/in/samuel-r-mendez"><img class="w60 h60 pull-left" src="./assets/images/LI.png"></a></div>
+              <div class="col-xs-3 col-s-3 col-m-3col-lg-3 pad10"><a href="https://vimeo.com/user15152945"><img class="w60 h60 pull-left" src="./assets/images/VM.png"></a></div>
+          </div>
+      </div>
+  
+    </div>
 
-		<div class="connecticonscontainer"><a href="https://www.github.com/smendez92"><img class="icon" src="./assets/images/GH.png"></a><a href="https://www.instagram.com/samuelanimates/"><img class="icon" src="./assets/images/IG.png"></a><a href="www.linkedin.com/in/samuel-r-mendez"><img class="icon" src="./assets/images/LI.png"></a><a href="https://vimeo.com/user15152945"><img class="icon" src="./assets/images/VM.png"></a></div>
-	</aside>
-	
-	</main>
+    <!-- Sticky Footer -->
+    <footer class="stickyfooter">
+        <table class="stickyfootertable">
+          <tbody>
+            <tr>
+              <td class="align-middle text-muted">© Copyright 2017 Samuel R. Mendez</td>
+            </tr>
+          </tbody>
+       </table>
+    </footer>
 
-	<footer>
-		<p class="copyright">© Copyright 2017 Samuel R. Mendez</p>
-	</footer>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-</body>
+  </body>
 
 </html>
