@@ -17,6 +17,14 @@ body {
   height: 60px;
 }
 
+.heightauto{
+  height: auto;
+}
+
+.maxwidth100pcnt{
+  max-width: 100%;
+}
+
 .pad10{
   padding: 10px;
 }
@@ -34,6 +42,16 @@ body {
 }
 .padbot224{
   padding-left: 24px;
+}
+
+.portfoliolabel{
+    bottom: 40px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: #4aaaa5;
 }
 
 .profiletext{
