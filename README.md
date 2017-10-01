@@ -1,2 +1,2 @@
 # Basic-Portfolio
-repository for Northwestern coding bootcamp April 2017 session
+First experiment with HTML and CSS to build a static webpage
