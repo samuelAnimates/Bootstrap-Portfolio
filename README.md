@@ -1,2 +1,2 @@
 # Basic-Portfolio
-First experiment with HTML and CSS to build a static webpage
+First experiment with Boostrap to build a static webpage
